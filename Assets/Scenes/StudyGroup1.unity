@@ -541,7 +541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 526499550}
-  - component: {fileID: 526499549}
+  - component: {fileID: 526499551}
   m_Layer: 0
   m_Name: Click
   m_TagString: Untagged
@@ -549,18 +549,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &526499549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526499548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 497c7ab7463fce844ac9445156b8cf02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &526499550
 Transform:
   m_ObjectHideFlags: 0
@@ -576,6 +564,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &526499551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526499548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a36ce72d7499b49a45c8327df0ce6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &681623222
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,7 +1320,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 526499549}
+      - m_Target: {fileID: 526499551}
         m_TargetAssemblyTypeName: fifth, Assembly-CSharp
         m_MethodName: SceneChange
         m_Mode: 1
