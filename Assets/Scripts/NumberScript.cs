@@ -21,7 +21,8 @@ public class NumberScript : MonoBehaviour
     }
     public void NumberMinus()
     {
-        Number -= 1;
+        if(Number!=0)
+            Number -= 1;
         ScriptTxt.text = Number.ToString();
     }
 }
