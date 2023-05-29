@@ -16,11 +16,11 @@ EditorBuildSettings:
     guid: 2b180487cd99f3844891901feb97ff8e
   - enabled: 1
     path: Assets/Scenes/Main.unity
-    guid: 2f1ba3d031314b14488294c9db9802d3
-  - enabled: 1
+    guid: f3744d68cf565bd47b70be1697ae0003
+  - enabled: 0
     path: Assets/Scenes/BSearch.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ASearch.unity
     guid: a2b6d4d61b7bdfe4b9275b8af38ed086
   - enabled: 1
@@ -36,10 +36,19 @@ EditorBuildSettings:
     path: Assets/Scenes/StudyGroup1.unity
     guid: f97b81430bc428646b6c1700dea0458b
   - enabled: 1
-    path: Assets/Scenes/AlarmSetting.unity
+    path: Assets/Scenes/AddAlarm.unity
     guid: 66a94627bb7bc204899c67a90e8c6973
   - enabled: 1
     path: Assets/Scenes/Alarm.unity
     guid: 31a09655cf1ddcb49ba0ea0165eb42dd
+  - enabled: 1
+    path: Assets/Scenes/TimeSetting.unity
+    guid: d97b8fd7b78937545bc9c527812eb789
+  - enabled: 1
+    path: Assets/Scenes/AlarmSettingComplete.unity
+    guid: 57377e158f7a26c4a8e174c5c191ebb3
+  - enabled: 1
+    path: Assets/Scenes/AlarmSetting.unity
+    guid: dd8dddc6567df1f45ac04f7b2ab72836
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 2e4d1c1e557ae574b8ead1016acd49bf, type: 2}

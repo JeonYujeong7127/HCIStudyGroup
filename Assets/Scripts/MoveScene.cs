@@ -62,6 +62,16 @@ public class MoveScene : MonoBehaviour
     {
         SceneManager.LoadScene("BSearch");
     }
-
-
+    public void GoToAlarm()
+    {
+        SceneManager.LoadScene("AddAlarm");
+    }
+    public void GoToTimeSetting()
+    {
+        SceneManager.LoadScene("TimeSetting");
+    }
+    public void GoToAlarmSettingComplete()
+    {
+        SceneManager.LoadScene("AlarmSettingComplete");
+    }
 }
