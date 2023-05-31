@@ -242,8 +242,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26, y: 47}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 10.8447, y: 27.6268}
+  m_SizeDelta: {x: 273.6895, y: 88.7465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &292047577
 MonoBehaviour:
@@ -265,8 +265,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xB7 Study will started at\n  20:00\n\n\xB7 Homework should be \n  done
-    in 29 July."
+  m_text: "\xB7 KU Game Development\n  Study will started at\n  20:00\n\n\xB7 Homework
+    should be \n  done in 29 July."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
