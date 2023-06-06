@@ -1,12 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MoveScene : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject in_id;
+    public GameObject in_pwd;
+    public GameObject information;
+    public GameObject error;
+    public string check_id;
+    public string check_pwd;
+    public GameObject group_name;
+    public GameObject group_goal;
+    public GameObject limit_num;
 
+    // Start is called before the first frame update
     public void GoToLogin()
     {
         SceneManager.LoadScene("Login");
@@ -19,9 +30,25 @@ public class MoveScene : MonoBehaviour
 
     public void GoToMain()
     {
-        SceneManager.LoadScene("Main");
+        information = GameObject.Find("Information");
+        check_id = information.GetComponent<DontDestroyOnLoad>().id;
+        check_pwd = information.GetComponent<DontDestroyOnLoad>().pwd;
+        TMP_InputField id_ = in_id.GetComponent<TMP_InputField>();
+        TMP_InputField pwd_ = in_pwd.GetComponent<TMP_InputField>();
+        if(id_.text==check_id && pwd_.text == check_pwd)
+        {
+            SceneManager.LoadScene("Main");
+        }
+        else
+        {
+            error.SetActive(true);
+        }
     }
 
+    public void GoToMain2()
+    {
+        SceneManager.LoadScene("Main");
+    }
 
     public void GoToAlarmScene()
     {
@@ -50,6 +77,10 @@ public class MoveScene : MonoBehaviour
 
     public void GoToAlarmSetting()
     {
+        information = GameObject.Find("Information");
+        information.GetComponent<DontDestroyOnLoad>().gname = group_name.GetComponent<TMP_InputField>().text; ;
+        information.GetComponent<DontDestroyOnLoad>().g_goal = group_goal.GetComponent<TMP_InputField>().text;
+        information.GetComponent<DontDestroyOnLoad>().gnum = limit_num.GetComponent<Text>().text;
         SceneManager.LoadScene("AlarmSetting");
     }
 

@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 215600942}
   - component: {fileID: 215600941}
   m_Layer: 5
-  m_Name: InputPassword2
+  m_Name: InputPWD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1830,6 +1830,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1464065697}
+        m_TargetAssemblyTypeName: DontDestroyOnLoad, Assembly-CSharp
+        m_MethodName: Inform
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &988220944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1881,7 +1893,7 @@ GameObject:
   - component: {fileID: 1157484305}
   - component: {fileID: 1157484304}
   m_Layer: 5
-  m_Name: InputPassword
+  m_Name: InputNewPWD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2179,6 +2191,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230888080}
   m_CullTransparentMesh: 1
+--- !u!1 &1464065696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464065698}
+  - component: {fileID: 1464065697}
+  m_Layer: 0
+  m_Name: Information
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1464065697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464065696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a193055920b166847a2984246000b2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input_id: {fileID: 1522666511}
+  input_pwd: {fileID: 1157484302}
+  input_name: {fileID: 1803600772}
+  id: 
+  pwd: 
+  iname: 
+--- !u!4 &1464065698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464065696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -163, y: 221.26605, z: 0.16161889}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1469284387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,7 +2389,7 @@ GameObject:
   - component: {fileID: 1522666514}
   - component: {fileID: 1522666513}
   m_Layer: 5
-  m_Name: InputID
+  m_Name: InputNewID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -3064,6 +3064,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264a51fd11a85124d99c8bc6d2875db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  in_id: {fileID: 0}
+  in_pwd: {fileID: 0}
+  information: {fileID: 0}
+  error: {fileID: 0}
+  check_id: 
+  check_pwd: 
+  group_name: {fileID: 0}
+  group_goal: {fileID: 0}
+  limit_num: {fileID: 0}
 --- !u!4 &1081372620
 Transform:
   m_ObjectHideFlags: 0
@@ -3298,7 +3307,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1081372619}
         m_TargetAssemblyTypeName: MoveScene, Assembly-CSharp
-        m_MethodName: GoToMain
+        m_MethodName: GoToMain2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

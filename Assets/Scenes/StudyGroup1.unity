@@ -710,6 +710,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264a51fd11a85124d99c8bc6d2875db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  in_id: {fileID: 0}
+  in_pwd: {fileID: 0}
+  information: {fileID: 0}
+  error: {fileID: 0}
+  check_id: 
+  check_pwd: 
+  group_name: {fileID: 0}
+  group_goal: {fileID: 0}
+  limit_num: {fileID: 0}
 --- !u!1 &714396344
 GameObject:
   m_ObjectHideFlags: 0
